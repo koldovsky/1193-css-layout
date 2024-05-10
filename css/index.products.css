@@ -6,13 +6,12 @@
         border: 1px solid var(--border-color);
         padding: 5px;
     }
-
 }
 
 @media (min-width: 600px) {
 
     .products__list {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }
@@ -20,7 +19,7 @@
 @media (min-width: 900px) {
 
     .products__list {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns:  repeat(3, 1fr);
     }
     
 }
